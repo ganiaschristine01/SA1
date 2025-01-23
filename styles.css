@@ -1,0 +1,79 @@
+body {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.resume {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    position: absolute;
+    box-shadow: #000000;
+    top: 10px;
+    right: 20px;
+    border-radius: 10%;
+
+}
+header {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin: 0;
+    color: #160101;
+}
+
+p {
+    margin: 10px 0;
+    color: #160202;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #160202;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: rgb(238, 237, 231);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    width: 50%;
+    position: absolute;
+    left: 250px;
+
+
+}
+
+button:hover {
+    background-color: #ca699e;
+}
